@@ -1,0 +1,14 @@
+{
+  "name": "parcel-transform-issue",
+  "version": "1.0.0",
+  "license": "MIT",
+  "source": "src/index.html",
+  "scripts": {
+    "build": "rm -rf .parcel-cache && yarn parcel build"
+  },
+  "dependencies": {
+    "parcel": "^2.2.1",
+    "parcel-transformer-ts": "link:./parcel-transformer-ts",
+    "typescript": "^4.5.5"
+  }  
+}
